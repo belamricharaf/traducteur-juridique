@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Traducteur Juridique - Essai Gratuit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎙️ Essayez notre traduction instantanée</h1>
+  <textarea id="trialInput" placeholder="Écrivez ici..." rows="4"></textarea>
+  <div class="lang-select">
+    <select id="trialSource">
+      <option value="fr">Français</option>
+      <option value="en">Anglais</option>
+      <option value="ar">Arabe</option>
+    </select>
+    <span>→</span>
+    <select id="trialTarget">
+      <option value="en">Anglais</option>
+      <option value="fr">Français</option>
+      <option value="ar">Arabe</option>
+    </select>
+  </div>
+  <button onclick="tryTranslate()">Traduire</button>
+  <p><strong>Traduction :</strong></p>
+  <div id="trialResult"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
